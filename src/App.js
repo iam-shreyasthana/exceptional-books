@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { useState } from 'react';
+
+const bookDataBase = {
+  
+  javaScript : [
+    { 
+      name: "JavaScript and JQuery: Interactive Front-End Web Development",
+      rating: 4.5/5
+    },
+    { 
+      name: "Head First JavaScript Programming: A Brain-Friendly Guide", 
+      rating: 4/5
+    }
+  ],
+
+  fiction: [
+    {
+      name: ""
+    }
+  ]
+};
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
     </div>
   );
 }
