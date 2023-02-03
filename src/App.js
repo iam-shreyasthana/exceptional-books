@@ -7,22 +7,22 @@ const bookDataBase = {
   javaScript : [
     { 
       name: "JavaScript and JQuery: Interactive Front-End Web Development",
-      rating: 4.5/5
+      rating: "4.5/5"
     },
     { 
       name: "Head First JavaScript Programming: A Brain-Friendly Guide", 
-      rating: 4/5
+      rating: "4/5"
     }
   ],
 
   fiction: [
     {
       name: "Harry Potter and the Half-Blood Prince",
-      rating: 5/5
+      rating: "5/5"
     },
     {
       name: "The Lord of The Rings",
-      rating: 4.5/5
+      rating: "4.5/5"
     }
   ],
 
