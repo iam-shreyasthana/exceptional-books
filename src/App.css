@@ -8,3 +8,26 @@ body {
   font-family: "Lato", sans-serif;
   background-color: #efefef;
 }
+
+.top-heading {
+  font-size: smaller;
+}
+
+
+.book-btn {
+  cursor: pointer;
+  background: #E5E7EB;
+  border-radius: 0.5rem;
+  padding: 0.5rem  1rem;
+  border: 1px solid black;
+  margin: 1rem 0.3rem;
+}
+
+.booksList {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid #D1D5DB;
+  width: 70%;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+}
